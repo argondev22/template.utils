@@ -3,10 +3,9 @@
     "github.copilot",
     "GitHub.copilot-chat",
     "github.codespaces",
-    "anysphere.remote-containers",
-    // ms-vscode-remote.remote-containers
     "ms-azuretools.vscode-docker",
     "ms-azuretools.vscode-containers",
+    "ms-vscode-remote.remote-containers",
     "pkief.material-icon-theme"
   ]
 }
