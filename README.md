@@ -13,16 +13,19 @@ A comprehensive template repository for creating new GitHub projects with pre-co
 ## What's Included
 
 ### Development Environment
+
 - `.editorconfig` - Consistent code formatting across different editors
 - `.vscode/` - VS Code specific settings and recommended extensions
 - `.devcontainer/` - Docker-based development environment configuration
 
 ### GitHub Integration
+
 - `.github/ISSUE_TEMPLATE/` - Standardized issue templates
 - `.github/PULL_REQUEST_TEMPLATE.md` - Pull request template
 - `.github/workflows/` - Ready for CI/CD workflow configurations
 
 ### Project Configuration
+
 - `.gitignore` - Comprehensive ignore rules for macOS, Windows, and Linux
 - `src/` - Source code directory structure
 
@@ -30,10 +33,12 @@ A comprehensive template repository for creating new GitHub projects with pre-co
 
 1. **Use this template** - Click "Use this template" button on GitHub
 2. **Clone your new repository**
+
    ```bash
    git clone https://github.com/yourusername/your-new-project.git
    cd your-new-project
    ```
+
 3. **Customize for your project**
    - Update this README.md with your project details
    - Modify `.devcontainer/devcontainer.example.json` and rename to `devcontainer.json`
@@ -51,12 +56,15 @@ This template includes a DevContainer configuration for consistent development e
 ## Customization
 
 ### Issue Templates
+
 Edit `.github/ISSUE_TEMPLATE/task.md` to match your project's needs.
 
 ### Pull Request Template
+
 Modify `.github/PULL_REQUEST_TEMPLATE.md` for your workflow requirements.
 
 ### VS Code Extensions
+
 Update `.vscode/extensions.json` with extensions specific to your project type.
 
 ## Contributing
