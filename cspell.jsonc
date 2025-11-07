@@ -11,7 +11,10 @@
     "yamllint",
     "jsonc",
     "vscode",
-    "copilot"
+    "copilot",
+    "mcr",
+    "bierner",
+    "esbenp"
   ],
   "ignorePaths": [
     // リント対象外のパス
@@ -43,11 +46,6 @@
     "\\b[A-Z0-9]{8,}\\b",
     "/\\*[\\s\\S]*?\\*/",
     "```[\\s\\S]*?```"
-  ],
-  "flagWords": [
-    // 使用を避けるべき単語（警告を出す）
-    "hte",
-    "teh"
   ],
   "dictionaries": [
     // 使用する辞書
