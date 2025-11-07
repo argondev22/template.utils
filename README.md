@@ -1,4 +1,4 @@
-# Template Utils
+# Utils Template
 
 A comprehensive template repository for creating new GitHub projects with pre-configured development environment and best practices.
 
