@@ -24,7 +24,7 @@
   "[yml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "yaml.validate": true,
-  "yaml.format.enable": true,
-  "yaml.schemaStore.enable": true
+  "json.validate.enable": true,
+  "json.format.enable": true,
+  "json.schemaDownload.enable": true,
 }
