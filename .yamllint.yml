@@ -32,7 +32,7 @@ rules:
 
   # 真偽値の表記を厳格化
   truthy:
-    allowed-values: ['true', 'false']
+    allowed-values: ["true", "false"]
     check-keys: false
 
 ignore: |
@@ -40,4 +40,3 @@ ignore: |
   .git/
   venv/
   .venv/
-
