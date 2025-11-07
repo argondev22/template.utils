@@ -1,5 +1,5 @@
 ---
-name: Common Lint
+name: Common Formatting and Linting
 
 on:
   push:
