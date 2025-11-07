@@ -40,7 +40,15 @@ jobs:
           node-version: "20"
 
       - name: Run jsonlint
-        run: npx jsonlint --quiet **/*.json
+        run: |
+          shopt -s globstar nullglob
+          files=(**/*.json)
+          if [ ${#files[@]} -gt 0 ]; then
+            npx jsonlint --quiet "${files[@]}"
+          else
+            echo "No JSON files found to lint"
+          fi
+        shell: bash
 
   markdownlint:
     name: Lint Markdown files
