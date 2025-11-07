@@ -39,7 +39,15 @@ A comprehensive template repository for creating new GitHub projects with pre-co
    cd your-new-project
    ```
 
-3. **Customize for your project**
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+   This will install the required development tools (Husky, Prettier, Commitlint, etc.).
+
+4. **Customize for your project**
    - Update this README.md with your project details
    - Modify `.devcontainer/devcontainer.example.json` and rename to `devcontainer.json`
    - Add your source code to the `src/` directory
