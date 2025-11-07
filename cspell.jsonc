@@ -14,7 +14,8 @@
     "copilot",
     "mcr",
     "bierner",
-    "esbenp"
+    "esbenp",
+    "venv"
   ],
   "ignorePaths": [
     // リント対象外のパス
