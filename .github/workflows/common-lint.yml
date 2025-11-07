@@ -26,6 +26,22 @@ jobs:
       - name: Run Prettier check
         run: npx prettier --check "**/*.{json,yml,yaml,md}"
 
+  jsonlint:
+    name: Lint JSON files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run jsonlint
+        run: npx jsonlint --quiet **/*.json
+
   markdownlint:
     name: Lint Markdown files
     runs-on: ubuntu-latest
