@@ -15,7 +15,8 @@
     "mcr",
     "bierner",
     "esbenp",
-    "venv"
+    "venv",
+    "cli"
   ],
   "ignorePaths": [
     // リント対象外のパス
