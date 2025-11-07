@@ -7,7 +7,6 @@
   "files.trimTrailingWhitespace": true,
   "editor.detectIndentation": false,
   "editor.wordWrap": "off",
-  "dev.containers.copyGitConfig": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
