@@ -47,7 +47,27 @@ A comprehensive template repository for creating new GitHub projects with pre-co
 
    This will install the required development tools (Husky, Prettier, Commitlint, etc.).
 
-4. **Customize for your project**
+4. **Set up Git LFS** (required for large file management)
+
+   ```bash
+   # Install Git LFS (one-time setup per machine)
+   brew install git-lfs  # macOS
+   # or download from https://git-lfs.github.com/ for other platforms
+
+   # Initialize Git LFS (one-time setup per machine)
+   git lfs install
+
+   # Pull LFS files from the repository
+   git lfs pull
+   ```
+
+   This project uses Git LFS to manage large files like images, videos, and binaries. The following file types are tracked:
+   - Images: `*.png`, `*.jpg`, `*.jpeg`, `*.gif`, `*.ico`
+   - Documents: `*.pdf`
+   - Archives: `*.zip`, `*.gz`, `*.tar`
+   - Binaries: `*.exe`, `*.dll`, `*.so`, `*.dylib`
+
+5. **Customize for your project**
    - Update this README.md with your project details
    - Modify `.devcontainer/devcontainer.example.json` and rename to `devcontainer.json`
    - Add your source code to the `src/` directory
