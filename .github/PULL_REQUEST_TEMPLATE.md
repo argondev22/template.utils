@@ -6,10 +6,6 @@
 
 -
 
-## How to test
-
-<!-- Steps to test the changes -->
-
 ## Notes
 
 <!-- Any additional information (optional) -->
