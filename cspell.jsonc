@@ -19,7 +19,8 @@
     "cli",
     "dylib",
     "lfs",
-    "user"
+    "usr",
+    "bak"
   ],
   "ignorePaths": [
     // Paths to exclude from linting
